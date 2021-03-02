@@ -1,3 +1,38 @@
+
+# 源码分析
+
+## 文件结构
+
+``` bash
+/Users/liufang/openSource/FunnyLiu/node-retry
+├── License
+├── Makefile
+├── README.md
+├── equation.gif
+├── example
+|  ├── dns.js
+|  └── stop.js
+├── index.js
+├── lib
+|  ├── retry.js
+|  └── retry_operation.js
+└── package.json
+
+directory: 3 file: 15
+
+ignored: directory (1)
+
+```
+
+## 外部模块依赖
+
+![img](./outer.svg)
+
+## 内部模块依赖
+
+![img](./inner.svg)
+  
+
 <!-- badges/ -->
 [![Build Status](https://secure.travis-ci.org/tim-kos/node-retry.svg?branch=master)](http://travis-ci.org/tim-kos/node-retry "Check this project's build status on TravisCI")
 [![codecov](https://codecov.io/gh/tim-kos/node-retry/branch/master/graph/badge.svg)](https://codecov.io/gh/tim-kos/node-retry)
